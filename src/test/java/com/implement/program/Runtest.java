@@ -28,6 +28,7 @@ public class Runtest {
 	public void executeResult()
 	{
 	    ExamPractise obj=new ExamPractise(driver);
+	    System.out.println("Code changed");
 		obj.openUrl();
 		obj.maximizeWindow();
 		obj.printUrl();
